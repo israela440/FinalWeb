@@ -1,0 +1,54 @@
+footer{
+    color: black;
+    background-color: black;
+}
+
+.foot {
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+header{
+    background-color: rgba(150, 75, 0, 0.8);
+    width: 100%;
+    position: fixed;
+}
+
+.logo {
+    border: 50px;
+    margin: 1px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: auto;
+}
+
+.nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    border: 30px;
+    margin: 12px;
+    gap: 30px;
+    background-color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+a{
+    transition: background-color .5s ease, color .5s ease
+}
+
+a:hover{
+    background-color:brown;
+    color: white;
+}
+
+#view{
+    background-image: url(view.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+

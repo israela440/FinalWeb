@@ -36,7 +36,7 @@ header{
 }
 
 a{
-    transition: background-color .5s ease, color .5s ease
+    transition: background-color .7s ease, color .5s ease
 }
 
 a:hover{
@@ -51,4 +51,47 @@ a:hover{
     background-size: cover;
     height: 800px;
 }
+#view2{
+    background-color: beige;
 
+}
+#view3{
+    background-color: tomato;
+}
+#view4{
+    background-color: darkslateblue;
+}
+#view5{
+    background-color:khaki;
+}
+#view6{
+    background-color: goldenrod;
+}
+#view7{
+    background-color:lightcoral;
+}
+#view8{
+    background-color:forestgreen;
+}
+this is here for images
+.imgS1{
+    display: flex;
+    justify-content: space-around;
+}
+.imgS2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}

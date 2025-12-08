@@ -73,22 +73,37 @@ a:hover{
 #view8{
     background-color:forestgreen;
 }
-this is here for images
+
 .imgS1{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
 }
 .imgS2{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
     flex-direction: row-reverse;
 }
 
+.image{
+    object-fit: contain;
+    width: 600px;
+    margin: 50px;
+}
+
+.text-contain{
+    flex: 1;
+    font-size:x-large;
+}
+
 h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
 p{
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
@@ -96,4 +111,10 @@ p{
     text-align: center;
     align-items: center;
     align-content: center;
+}
+
+.center-table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
 }
